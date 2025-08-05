@@ -1,0 +1,32 @@
+.admin h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.action {
+    display: flex;
+    gap: 1rem;
+}
+
+.edit-btn {
+    background-color: rgb(181, 248, 178);
+    color: #000000;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #47e939;
+    color: #000000;
+    transform: scale(1.05);
+}
+.delete-btn {
+    background-color: rgb(250, 175, 175);
+    color: #000000;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #f00;
+    color: #ffffff;
+    transform: scale(1.05);
+}
